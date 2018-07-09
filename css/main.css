@@ -295,7 +295,7 @@ h2 {
     -webkit-filter: drop-shadow(0px 1px 10px #0094ca);
 }
 .viber {
-    background: url(../images/viber2.png) 50% no-repeat;
+    background: url(../images/viber.png) 50% no-repeat;
     background-size: contain;
     -webkit-background-size: contain;
 }
@@ -326,6 +326,10 @@ h2 {
     }
     .consultation {
         margin: 20px 0 0 0;
+    }
+    .header .menu.fixed {
+        height: 130px;
+        z-index: 10;
     }
 }
 @media screen and (max-width: 520px) {
@@ -365,5 +369,9 @@ h2 {
     }
     .two-steps > p {
         font-size: 28px;
+    }
+    .consultation {
+        width: 80%;
+        text-align: center;
     }
 }
